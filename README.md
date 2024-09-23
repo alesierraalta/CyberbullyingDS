@@ -27,3 +27,10 @@ This project uses machine learning and natural language processing (NLP) to clas
 1. Install the required Python libraries:
    ```bash
    pip install pandas numpy nltk spacy scikit-learn imbalanced-learn seaborn matplotlib
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+python -m spacy download en_core_web_sm
